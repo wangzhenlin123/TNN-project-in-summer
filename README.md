@@ -3,14 +3,14 @@
 3D Conv的x86和openvino实现
 
 
-
-## openvino的3D Conv实现
+ 
+## 3D Conv的openvino实现
 具体做法：
 在<path to TNN>/network/openvino/layer_builder中添加了一个conv3d_layer_builder.cc文件
 
   
   
-## x86的3D Conv实现
+## 3D Conv的x86实现
 具体做法：
     在source/tnn/device/x86/acc下添加：
    	  source/tnn/device/x86/acc/x86_conv_3d_layer_acc.h    （完成）

@@ -24,8 +24,8 @@
 	  source/tnn/device/x86/acc/convolution/x86_conv_3d_layer_common.h    （完成）
 	  source/tnn/device/x86/acc/convolution/x86_conv_3d_layer_common.cc    (完成)
 	
-      在source/tnn/device/x86/acc/compute/x86_compute.cc添加函数X86_VID2COL的实现
-      在source/tnn/device/x86/acc/compute/x86_compute.h添加X86_VID2COL的声明
+     在source/tnn/device/x86/acc/compute/x86_compute.cc添加函数X86_VID2COL的实现
+     在source/tnn/device/x86/acc/compute/x86_compute.h添加X86_VID2COL的声明
    
    主要问题：      
   

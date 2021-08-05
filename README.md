@@ -9,9 +9,12 @@
 在<path to TNN>/network/openvino/layer_builder中添加了一个conv3d_layer_builder.cc文件
 
 测试：
-input:    1x3x16x224x224
+input:    1x3x16x224x224 
+	
 3d conv:  32x3x3x3x3
+	
 output:   1x32x16x112x112
+	
 TNN Benchmark time cost: min = 68.923   ms  |  max = 68.923   ms  |  avg = 68.923   ms	
   
   

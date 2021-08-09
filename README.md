@@ -46,4 +46,6 @@ input:    1x3x16x224x224
 output:   1x32x16x112x112
 	
 TNN Benchmark time cost: min = 128.034  ms  |  max = 128.034  ms  |  avg = 128.034  ms
-    
+	
+
+## 3D Pooling的x86实现  
